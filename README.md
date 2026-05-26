@@ -165,8 +165,71 @@ OSPF:
 
 ```cisco
 network 192.168.1.64 0.0.0.31 area 0
+
+
 ```
 
+# Cisco eszköz alapkonfiguráció
+
+Az eszközre kattintva feljövő konfigurációs ablak **CLI** fülén az alábbi parancsokat kell kiadni.
+
+1. **NEM lépünk be az automatikus konfigurációba!**
+2. Privilegizált módba váltás:
+
+```bash
+enable
+```
+
+3. Globális konfiguráció módba váltás:
+
+```bash
+configure terminal
+```
+
+4. Eszköz elnevezése:
+
+```bash
+hostname akármi
+```
+
+---
+
+## Jelszavas védelem beállítása
+
+A hálózati berendezéseket érdemes jelszóval védeni. Az alapvető beállítási lehetőségeket próbáljuk ki az egyik routeren.
+
+### 1. Privilegizált mód titkosított jelszava
+
+```bash
+enable secret hauenapa55
+```
+
+### 2. Konzolos belépés jelszava és kiírás szinkronizálás
+
+```bash
+configure terminal
+line console 0
+password hauconpa55
+login
+logging synchronous
+exit
+```
+
+### 2. interface ipv4 cim + netmaszk beállitás ás port felkapcsolás
+```bash
+interface GigabitEthernet0/0
+ip address 172.16.17.158 255.255.255.224
+no shutdown
+```
+
+### 2. interface ipv6 cim + netmaszk beállitás ás port felkapcsolás
+```bash
+! unicast commandal engedélyezzük a routerbe az ipv6 cimek áramlását
+ipv6 unicast-routing
+interface GigabitEthernet0/0
+ipv6 address 2001:DB8:BE:1::158/64
+ipv6 address FE80::1 link-local
+```
 ---
 
 # 7. VLAN alapok
