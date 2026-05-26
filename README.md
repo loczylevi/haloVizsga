@@ -221,25 +221,6 @@ switchport trunk allowed vlan 10,20,30
 no shutdown
 ```
 
----
-
-# 10. Router-on-a-stick
-
-VLAN routing routeren.
-
-```cisco
-interface g0/0.10
-
-! VLAN ID
-encapsulation dot1Q 10
-
-! gateway cím
-ip address 192.168.10.254 255.255.255.0
-
-no shutdown
-```
-
----
 
 # 11. Statikus útvonal
 
