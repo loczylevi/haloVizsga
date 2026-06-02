@@ -510,3 +510,4 @@ vlan 10
 9. browser teszt
 
 ---
+<img src="en6.png">
