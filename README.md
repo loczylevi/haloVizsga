@@ -1,8 +1,6 @@
 # haloVizsga
 
-### isten terve
-
-## bocsánat Nagy __I__ vel az Isten 🙏🙏🙏 in nomine patris et fili 🙏🙏🙏
+## Isten terve 🙏🙏🙏 in nomine patris et fili 🙏🙏🙏
 
 <img src="2omb-prayge.gif">
 <i>in nomine patris et fili <br>
