@@ -1,5 +1,17 @@
 # haloVizsga
-isten terve
+
+### isten terve
+
+## bocsánat Nagy __I__ vel az Isten 🙏🙏🙏 in nomine patris et fili 🙏🙏🙏
+
+<img src="2omb-prayge.gif">
+<i>in nomine patris et fili <br>
+cuius regio eius religio <br>
+in medius res deus ex machine <br>
+nomen est omen carpe diem <br>
+divida et impara <br>
+Eredics atyánk mindörökké ámen</i> 🙏 <br>
+
 # Cisco Packet Tracer IPv4 + VLAN + OSPF Jegyzet
 
 ---
